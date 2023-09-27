@@ -4,67 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="heading">
-        <navbar>
-            <div class="header-logo">
-                <h4>Butler</h4>
+    <section class="header">
+        <div class="nav">
+            <div class="logo">
+                <p>Jana</p>
             </div>
-            <ul class="header-links">
-                <li>Header Link 1</li>
-                <li>Header Link 2</li>
-                <li>Header Link 3</li>
+            <ul class="navlinks">
+                <li>Our Vision</li>
+                <li>Find Student Housing</li>
+                <li>List a house</li>
             </ul>
-        </navbar>
-        <section class="hero">
+        </div>
+        <div class="hero">
             <div class="hero-text">
-                <h2>This website is awesome.</h2>
-                <p>This website has some subtext that goes under the main text. it's a smaller font and the color is lower contrast.</p>
-            <button>Sign Up</button>
+                <h1 class="hero-main">This website is awesome</h1>
+                <p class="hero-sec">This website has some subtext that goes under the main title. <br>It's a smaller font and the color is a lower <br>contrast</p>
+                <button class="hero-btn">Sign up</button>
             </div>
-            <div>
-                <img src="./images/landingimg.jpg" alt="Two students studying & helping each other overcome a blocker">
-            </div>
-        </section>
-    </section>
-    <section>
-        <div class="cards-text">
-            <h2>Some random information.</h2>
-        </div>
-        <div class="cardslist">
-            <div class="cards">
-                <div class="card1"></div>
-                <p>This is some subtext under an illustration or image</p>
-            </div>
-            <div class="cards">
-                <div class="card1"></div>
-                <p>This is some subtext under an illustration or image</p>
-            </div>
-            <div class="cards">
-                <div class="card1"></div>
-                <p>This is some subtext under an illustration or image</p>
-            </div>
-            <div class="cards">
-                <div class="card1"></div>
-                <p>This is some subtext under an illustration or image</p>
+            <div class="hero-img">
+                <img src="/images/landingimg.jpg" alt="">
             </div>
         </div>
     </section>
-    <section class="quote-section">
-        <p>This is an inspiring quote,or a testimonial from a  customer. Maybe it's  just filling up space, or maybe people will actually read it. Who knows? All i know is that  it looks  nice.</p>
-        <p class="author-name">-Thor, God of Thunder</p>
+    <section class="information">
+        <div class="info-text">
+            <h3>Some Random information</h3>
+        </div>
+        <div class="info-images">
+            <div class="img1">
+                <img class="set-img" src="/images/landingimg.jpg" alt="students in the lobby">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="img1">
+                <img class="set-img"  src="/images/landingimg.jpg" alt="students in the lobby">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="img1">
+                <img class="set-img"  src="/images/landingimg.jpg" alt="students in the lobby">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+            <div class="img1">
+                <img class="set-img"  src="/images/landingimg.jpg" alt="students in the lobby">
+                <p>This is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+    <section class="words">
+        <blockquote>
+            <p>This is an inspiring quote, or a testimonial from a<br>customer. Maybe its filing up space, or maybe<br>people will actually read it. who knows? All i know<br>is that it looks nice.</p>
+        </blockquote>
+        <p class="author"> ~Thor, the God Of Thunder</p>
     </section>
     <section class="action">
-        <div class="call-to-action">
-            <h3>Call to action! it's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
+        <div class="action-container">
+            <div class="action-call">
+                <h3>Call to action! It's time.</h3>
+                <p>Sign up for our product by clicking that button right over there.</p>
+            </div>
             <button class="action-btn">Sign up</button>
         </div>
     </section>
-    <footer>
-        copyright &copy; Butler 2023
+    <footer class="footer-container">
+        copyright &copy; Wocodes 2023
     </footer>
 </body>
 </html>
